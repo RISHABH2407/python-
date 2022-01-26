@@ -1,0 +1,85 @@
+1(a)
+C:\python\python.exe C:/Users/RISHABH/PycharmProjects/pythonProject11/quiz.py
+35
+
+Process finished with exit code 0
+
+(b)
+C:\python\python.exe C:/Users/RISHABH/PycharmProjects/pythonProject11/quiz.py
+egaugnal evitisnes esac a si nohtyP
+
+Process finished with exit code 0
+
+(c)
+C:\python\python.exe C:/Users/RISHABH/PycharmProjects/pythonProject11/quiz.py
+a case sensitiv
+
+Process finished with exit code 0
+
+(d)
+C:\python\python.exe C:/Users/RISHABH/PycharmProjects/pythonProject11/quiz.py
+Python is object oriented language
+
+Process finished with exit code 0
+
+(e)
+C:\python\python.exe C:/Users/RISHABH/PycharmProjects/pythonProject11/quiz.py
+10
+
+Process finished with exit code 0
+
+(f)
+C:\python\python.exe C:/Users/RISHABH/PycharmProjects/pythonProject11/quiz.py
+Pythonisacasesensitivelanguage
+
+Process finished with exit code 0
+
+2
+C:\python\python.exe C:/Users/RISHABH/PycharmProjects/pythonProject11/quiz.py
+Hey, Rishabh Here!
+My SID is 21104070
+I am from EE department and my CGPA is 9.900000
+
+Process finished with exit code 0
+
+
+
+3
+C:\python\python.exe C:/Users/RISHABH/PycharmProjects/pythonProject11/quiz.py
+8
+58
+50
+224
+40
+14
+0
+
+Process finished with exit code 0
+
+4
+C:\python\python.exe C:/Users/RISHABH/PycharmProjects/pythonProject11/quiz.py
+enter first number :56
+enter second number :465
+enter third number :454
+465
+
+Process finished with exit code 0
+
+5
+C:\python\python.exe C:/Users/RISHABH/PycharmProjects/pythonProject11/quiz.py
+enter your word rishabh
+No
+
+Process finished with exit code 0
+
+
+6
+C:\python\python.exe C:/Users/RISHABH/PycharmProjects/pythonProject11/quiz.py
+enter length 1 :12
+enter length 2 :23
+enter length 3 :21
+Yes
+
+Process finished with exit code 0
+
+

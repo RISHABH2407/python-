@@ -1,0 +1,112 @@
+1(a) 
+# finding length of string 
+stri = 'Python is a case sensitive language'
+length = len(stri)
+print(length)
+
+(b)
+# reversing the order of the string 
+stri = 'Python is a case sensitive language'
+rev_stri = stri[ : : -1]
+print(rev_stri)
+
+(c)
+# slicing the string
+stri = 'Python is a case sensitive language'
+s = slice(10, 25)
+new_stri = stri[s]
+print(new_stri)
+
+(d)
+# replacing one string with another
+stri = 'Python is a case sensitive language'
+rep_stri = stri.replace("a case sensitive", "object oriented")
+print(rep_stri)
+
+(e)
+# finding index of string 
+stri = 'Python is a case sensitive language'
+stri_idx = stri.index("a")
+print(stri_idx)
+
+(f) 
+# removing white spaces 
+stri = 'Python is a case sensitive language'
+stri_without_space = stri.replace(" ", "")
+print(stri_without_space)
+
+2 
+# formatting string
+name = "Rishabh"
+sid = "21104070"
+dept = "EE"
+cgpa = 9.9
+
+string = "Hey, %s Here!\nMy SID is %s\nI am from %s department and my CGPA is %f" %(name, sid, dept, cgpa)
+
+3
+# using bitwise operators for calculation 
+a=56
+b =10
+(a)
+expr1 = a&b
+print(expr1)
+
+(b)
+expr2 = a|b
+print(expr2)
+
+(c)
+expr3 = a^b
+print(expr3)
+
+(d)
+a_lshift = a<<2
+print(a_lshift)
+b_lshift = b<<2
+print(b_lshift)
+
+(e)
+a_rshift = a>>2
+print(a_rshift)
+b_rshift = b>>4
+print(b_rshift)
+
+4
+# finding the greatest of three numbers
+a = int(input('enter first number :'))
+b = int(input('enter second number :'))
+c = int(input('enter third number :' ))
+
+if (a >= b) and (a >= c):
+        largest = a
+elif (b >= a) and (b >= c):
+        largest = b
+else:
+        largest = c
+print(largest)
+
+5
+# checking if the word is present or not 
+str = input('enter your word ')
+
+if "name" in str:
+    print("Yes")
+else:
+    print("No")
+
+6
+# finding if the lengths can make a triangle or not
+a = int(input('enter length 1 :'))
+b = int(input('enter length 2 :'))
+c = int(input('enter length 3 :'))
+
+if (a + b <= c) or (a + c <= b) or (b + c <= a) :
+        print("No")
+else:
+        print("Yes")
+
+
+
+
+
