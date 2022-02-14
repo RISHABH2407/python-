@@ -1,0 +1,215 @@
+1
+# counting occurrence of letter in a word
+word = input('enter string :')
+print('number of words :', len(word))
+
+for letter in word:
+    print(letter, '=', word.count(letter))
+
+
+2
+# printing next date of input date.
+day = int(input('enter day in range(1,31) :'))
+month = int(input('enter month in range(1,12) :'))
+year = int(input('enter year in range(1800,2025) :'))
+
+if day in range(1, 32) and month in range(1, 13) and year in range(1800, 2026):
+    if day == 28 and month == 2:
+        print(f'Next Date is:01/03/{year}')
+
+    elif day == 29 and month == 2:
+        print(f'Next Date is:01/03/{year}')
+
+    elif day == 31 and month == 12:
+        year = year + 1
+        print(f'Next Date is:01/01/{year}')
+
+    elif day == 30 and month in [4, 6, 9, 11]:
+        print(f'Next Date is:{day}/{month}/{year}')
+
+    elif day == 31 and month in [1, 3, 5, 7, 8, 10, 12]:
+        month = month + 1
+        print(f'Next Date is:01/{month}/{year}')
+    else:
+        day = day + 1
+        print(f'Next Date is:{day}/{month}/{year}')
+
+else:
+    print('enter values within the limit ')
+
+
+
+
+3
+# creating a list of tuples 
+def func(list):
+    outputlist = []
+    for i in list:
+        outputlist.append((i, i * i))
+    return outputlist
+
+
+list = [3, 5, 9]
+output = func(list)
+print(output)
+
+
+
+
+4
+# printing letter grade and performance on the basic of grade
+grade = int(input("enter your grade :"))
+if grade in range(4, 11):
+    if grade == 10:
+        print('your letter grade is A+ and OUTSTANDING performance')
+    elif grade == 9:
+        print('your letter grade is A and EXCELLENT performance')
+    elif grade == 8:
+        print('your letter grade is B+ and VERY GOOD performance')
+    elif grade == 7:
+        print('your letter grade is B and GOOD performance')
+    elif grade == 6:
+        print('your grade letter is C+ and AVERAGE performance ')
+    elif grade == 5:
+        print('your grade letter is C and BELOW AVERAGE performance')
+    elif grade == 4:
+        print('your grade letter is D and POOR performance')
+    else:
+        print('error message ')
+else:
+    print('error')
+
+
+
+5 
+# reverse pyramid pattern
+n = 6
+
+for i in range(n):
+    # printing spaces
+    for j in range(i):
+        print(' ', end='')
+    # printing alphabet
+    for j in range(2 * (n - i) - 1):
+        print(chr(65 + j), end='')
+    print()
+
+
+6 
+# Storing and sorting
+dic1 = {}
+while True:
+    SID = int(input('enter your SID : '))
+    NAME = input('enter your name :')
+    dic1[SID] = NAME
+    choice = input('do you want to enter more data type Y else type N :-')
+    if choice.upper() == 'N':
+        break
+
+# a
+print(dic1)
+
+# b 
+# sorting dictionary by name 
+sortedbyname = sorted(dic1.items(), key=lambda x: x[1])
+print('\n', sortedbyname)
+
+# c
+# sorting dictionary by SID 
+sortedbySID = sorted(dic1.items())
+print('\n', sortedbySID)
+
+# d
+# finding name by sid 
+findname = int(input('enter your sid '))
+print(dic1[findname])
+
+
+
+7
+def fib(n):
+    """making a fibonacci sequence
+        here 'n' is no of terms you want in sequence"""
+    a = 0
+    b = 1
+
+    if n == 1:
+        print(a)
+    else:
+        print(a, end=" ")
+        print(b, end=" ")
+        for i in range(2, n):
+            c = a + b
+            print(c, end=" ")
+            a = b
+            b = c
+
+
+fib(5)
+
+
+def ave(n):
+    """ finding average of all numbers in fibonacci sequence"""
+    a = 0
+    b = 1
+    c = 0
+    sum = a + b
+    if n == 1 or n == 0:
+        print(n)
+
+    else:
+        for c in range(2, n):
+            c = a + b
+            sum = sum + c
+            a = b
+            b = c
+        average = sum / n
+        print('\nthe average is ', average)
+
+
+ave(5)
+
+
+
+8
+# performing operations on sets 
+
+Set1 = {1, 2, 3, 4, 5}
+Set2 = {2, 4, 6, 8}
+Set3 = {1, 5, 9, 13, 17}
+# a
+set_a = (Set1 | Set2) - (Set1 & Set2)
+print('a ', set_a)
+print()
+
+# b
+setx = Set1 & Set2 & Set3
+print('b', setx)
+print()
+
+# c
+set_b = Set1 & Set2
+set_c = Set2 & Set3
+set_d = Set3 & Set1
+set_h = set_b | set_c | set_d
+print('c', set_h)
+print()
+
+# d
+set_e = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+set_f = set_e - Set1
+print('d', set_f)
+print()
+
+# e
+set_g = Set1 | Set2 | Set3
+set_i = set_e - set_g
+print('e', set_i)
+
+
+
+
+
+
+
+

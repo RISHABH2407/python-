@@ -1,0 +1,90 @@
+1
+C:\python\python.exe C:/Users/RISHABH/PycharmProjects/pythonProject1/scratch_1.py
+enter string :rishabh
+number of words : 7
+r = 1
+i = 1
+s = 1
+h = 2
+a = 1
+b = 1
+h = 2
+
+Process finished with exit code 0
+
+2
+C:\python\python.exe C:/Users/RISHABH/PycharmProjects/pythonProject1/scratch_1.py
+enter day in range(1,31) :24
+enter month in range(1,12) :07
+enter year in range(1800,2025) :2002
+Next Date is:25/7/2002
+
+Process finished with exit code 0
+
+
+3
+C:\python\python.exe C:/Users/RISHABH/PycharmProjects/pythonProject1/scratch_1.py
+[(3, 9), (5, 25), (9, 81)]
+
+Process finished with exit code 0
+
+4
+C:\python\python.exe C:/Users/RISHABH/PycharmProjects/pythonProject1/scratch_1.py
+enter your grade :10
+your letter grade is A+ and OUTSTANDING performance
+
+Process finished with exit code 0
+
+5
+C:\python\python.exe C:/Users/RISHABH/PycharmProjects/pythonProject1/scratch_1.py
+ABCDEFGHIJK
+ ABCDEFGHI
+  ABCDEFG
+   ABCDE
+    ABC
+     A
+
+Process finished with exit code 0
+
+6
+
+C:\python\python.exe C:/Users/RISHABH/PycharmProjects/pythonProject1/scratch_1.py
+enter your SID : 21104070
+enter your name :RISHABH
+do you want to enter more data type Y else type N :-Y
+enter your SID : 21104071
+enter your name :ANNIE MARIE 
+do you want to enter more data type Y else type N :-Y
+enter your SID : 21104072
+enter your name :BILLIE EILISH
+do you want to enter more data type Y else type N :-N
+{21104070: 'RISHABH', 21104071: 'ANNIE MARIE ', 21104072: 'BILLIE EILISH'}
+
+ [(21104071, 'ANNIE MARIE '), (21104072, 'BILLIE EILISH'), (21104070, 'RISHABH')]
+
+ [(21104070, 'RISHABH'), (21104071, 'ANNIE MARIE '), (21104072, 'BILLIE EILISH')]
+enter your sid 21104070
+RISHABH
+
+Process finished with exit code 0
+
+7
+C:\python\python.exe C:/Users/RISHABH/PycharmProjects/pythonProject1/scratch_1.py
+0 1 1 2 3 
+the average is  1.4
+
+Process finished with exit code 0
+
+8
+C:\python\python.exe C:/Users/RISHABH/PycharmProjects/pythonProject1/scratch_1.py
+a  {1, 3, 5, 6, 8}
+
+b set()
+
+c {1, 2, 4, 5}
+
+d {6, 7, 8, 9, 10}
+
+e {10, 7}
+
+Process finished with exit code 0
